@@ -1,0 +1,9 @@
+.THIS {
+}
+.THIS .button-padding {    
+
+}
+
+.THIS .textFontSize {
+    font-size: "{!v.fontSize}" !important;
+}
