@@ -1,12 +1,13 @@
 <design:component label="Back Button">
 
-    <design:attribute name="buttonName" label="Link Name"/>
-    <design:attribute name="buttonVariant" label="Back to Previous or Top" datasource="Back to Previous Page,Back to Top of Page"/>
-    <design:attribute name="buttonJustify" label="Button text justification" datasource="Left,Center,Right"/>
-    <design:attribute name="fontSize" label="Font size (in rem units)"/>
-    <design:attribute name="noLinkColor" label="No link color (#HEX)"/>
-    <design:attribute name="bottomMargin" label="Bottom margin (in pixels)"/>
-    <design:attribute name="topMargin" label="Top margin (in pixels)"/>
-    <design:attribute name="showAsLink" label="Show As Link"/>
+    <design:attribute name="buttonName" label="Link Name" description="Set the button name"/>
+    <design:attribute name="buttonVariant" label="Back to Previous or Top" datasource="Back to Previous Page,Back to Top of Page" description="Set the button type"/>
+    <design:attribute name="buttonJustify" label="Button horizontial justification" datasource="Left,Center,Right" description="Set the hornizontial justification"/>
+    <design:attribute name="fontSize" label="Font size (in rem units)" description="Text font size in rem (1rem=16px) units"/>
+    <design:attribute name="noLinkColor" label="No link color (#HEX)" description="Set the link color when shaow as link is not used in HEXS color (e.e., #333333"/>
+    <design:attribute name="topMargin" label="Top margin (in pixels)" description="Set the topmargin in pixels"/>
+    <design:attribute name="bottomMargin" label="Bottom margin (in pixels)" description="Set the bottom margin in pixels"/>
+    <design:attribute name="showAsLink" label="Show As Link" description="Check to chow the button using brand the link color"/>
+    
     
 </design:component>
